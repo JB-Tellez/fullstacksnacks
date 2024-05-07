@@ -3,7 +3,6 @@ import Experience from "./experience";
 import Footer from "./footer";
 import Header from "./header";
 import Intro from "./intro";
-import Skills from "./skills";
 
 export default function Pitch() {
   return (
@@ -13,7 +12,6 @@ export default function Pitch() {
         <Intro />
         <Glance />
         <Experience />
-        <Skills />
       </main>
       <Footer />
     </div>
