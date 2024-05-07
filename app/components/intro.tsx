@@ -16,8 +16,11 @@ export default function Intro() {
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 py-4">
                   Hi there. 
                 </p>
+                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 py-2">
+                  I am super interested in the work you are doing and would love to talk.
+                </p>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  I am super interested in the work you are doing and would love to talk. Please scroll down to see "at a glance" how my experience lines up.
+                  Please scroll down to see "at a glance" how my experience lines up.
                 </p>
               </div>
               <div className="animate-bounce pt-8">
