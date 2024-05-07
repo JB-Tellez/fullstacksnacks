@@ -71,7 +71,7 @@ export default function Experience() {
 }
 
 
-function BriefcaseIcon(props) {
+function BriefcaseIcon(props:any) {
     return (
       <svg
         {...props}
