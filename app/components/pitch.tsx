@@ -33,15 +33,16 @@ export default function Pitch() {
           <span className="sr-only">Resume</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-sm font-medium hover:underline underline-offset-4" to="#">
-            About
+          <Link className="text-sm font-medium hover:underline underline-offset-4" to="#at-a-glance">
+            At a Glance
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" to="#">
+          <Link className="text-sm font-medium hover:underline underline-offset-4" to="#experience">
             Experience
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" to="#">
+          <Link className="text-sm font-medium hover:underline underline-offset-4" to="#skills">
             Skills
           </Link>
+          
           <Link className="text-sm font-medium hover:underline underline-offset-4" to="#">
             Contact
           </Link>
@@ -61,6 +62,14 @@ export default function Pitch() {
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                   Hi there. I really like the work you're doing. 
                 </p>
+              </div>
+              <div className="animate-bounce">
+                <Link
+                  className="inline-flex h-10 items-center justify-center rounded-md bg-gray-900 px-4 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:bg-gray-50 dark:text-gray-900 dark:hover:bg-gray-50/90 dark:focus-visible:ring-gray-300"
+                  to="#at-a-glance"
+                >
+                  <ChevronDownIcon className="h-5 w-5" />
+                </Link>
               </div>
             </div>
           </div>
@@ -102,26 +111,55 @@ export default function Pitch() {
                   <div className="flex items-center gap-4">
                     <BriefcaseIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
                     <div className="space-y-1">
-                      <div className="text-lg font-semibold">Principal Full-Stack Engineer</div>
-                      <div className="text-sm text-gray-500 dark:text-gray-400">Acme Inc. | 2019 - Present</div>
+                      <div className="text-lg font-semibold">Principal Instructor</div>
+                      <div className="text-sm text-gray-500 dark:text-gray-400">
+                        <a className="underline" href="https://www.codefellows.org/">Code Fellows</a> | 2017 - 2024
+                      </div>
                     </div>
                   </div>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Led a product-focused engineering team, designing scalable and resilient system architectures.
-                    Collaborated closely with stakeholders to deliver high-quality, user-centric solutions.
+                  Trained adult learners with little to no coding experience to advanced levels in JavaScript and Python. Co-created curriculum that plays to individual strengths for rapid yet solid progress. Managed instructor team with focus on supporting underrepresented groups in tech.
                   </p>
                 </div>
                 <div className="flex flex-col gap-4">
                   <div className="flex items-center gap-4">
                     <BriefcaseIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
                     <div className="space-y-1">
-                      <div className="text-lg font-semibold">Senior Full-Stack Engineer</div>
-                      <div className="text-sm text-gray-500 dark:text-gray-400">Widgets Co. | 2015 - 2019</div>
+                      <div className="text-lg font-semibold">Director of Engineering</div>
+                      <div className="text-sm text-gray-500 dark:text-gray-400">
+                        <a className="underline" href="https://rippleeffects.com/">Ripple Effects</a> | 2012 - 2017
+                      </div>
                     </div>
                   </div>
                   <p className="text-gray-500 dark:text-gray-400">
-                    Designed and developed scalable web applications using TypeScript, React, and Node.js. Implemented
-                    cloud deployment and management practices, including Kubernetes.
+                  Developed desktop, mobile, and web applications for preK-12 learners using various languages and frameworks. Collaborated with educators to enhance application effectiveness. Researched and implemented best development tools and practices, reducing risk and improving efficiency. Contributed to strategic decision-making with leadership.
+                  </p>
+                </div>
+                <div className="flex flex-col gap-4">
+                  <div className="flex items-center gap-4">
+                    <BriefcaseIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
+                    <div className="space-y-1">
+                      <div className="text-lg font-semibold">Sr. Software Engineer</div>
+                      <div className="text-sm text-gray-500 dark:text-gray-400">
+                        <a className="underline" href="https://smashingideas.com/">Smashing Ideas</a> | 2010 - 2012
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-gray-500 dark:text-gray-400">
+                  Spearheaded online game development from concept to launch, leading teams on large-scale game suites. Optimized tools and workflows for web and mobile development. Collaborated with clients to design engaging game mechanics and balance gameplay for maximum user experience.</p>
+                </div>
+                <div className="flex flex-col gap-4">
+                  <div className="flex items-center gap-4">
+                    <BriefcaseIcon className="h-8 w-8 text-gray-500 dark:text-gray-400" />
+                    <div className="space-y-1">
+                      <div className="text-lg font-semibold">Sr. Software Engineer</div>
+                      <div className="text-sm text-gray-500 dark:text-gray-400">
+                        <a className="underline" href="https://scilearn.com/">Scientific Learning</a> | 1999 - 2009
+                      </div>
+                    </div>
+                  </div>
+                  <p className="text-gray-500 dark:text-gray-400">
+                  Created educational games to enhance literacy for k-12 learners. Led front-end development team, implemented middleware for seamless communication between display and Java backend. Conducted code reviews, developed educational apps, and designed data upload and persistence strategies. Researched and evaluated cutting-edge development tools and processes, including XP, TDD, UML, and Design Patterns, to optimize team efficiency and product quality.
                   </p>
                 </div>
               </div>
@@ -416,6 +454,25 @@ function UsersIcon(props) {
       <circle cx="9" cy="7" r="4" />
       <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
       <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+    </svg>
+  )
+}
+
+function ChevronDownIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="m6 9 6 6 6-6" />
     </svg>
   )
 }

@@ -19,7 +19,7 @@ To read more about using these font, please visit the Next.js documentation:
 **/
 export default function Glance() {
   return (
-    <section className="w-full max-w-3xl mx-auto py-12 md:py-16 lg:py-20">
+    <section className="w-full max-w-3xl mx-auto py-12 md:py-16 lg:py-20" id="at-a-glance">
       <div className="space-y-6">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold tracking-tight md:text-4xl">Me at a Glance</h1>
