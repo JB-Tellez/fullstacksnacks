@@ -3,8 +3,8 @@ import Pitch from "~/components/pitch"
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
+    { title: "Full Stack Snacks" },
+    { name: "description", content: "Full Stack Snacks" },
   ];
 };
 
