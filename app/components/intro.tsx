@@ -16,7 +16,7 @@ export default function Intro() {
                   Hi there. 
                 </p>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  I am super interested the work you're doing and I think I could be a good fit. Please scroll down to see "at a glance" how my experience lines up.
+                  I am super interested the work you are doing and would love to talk. Please scroll down to see "at a glance" how my experience lines up.
                 </p>
               </div>
               <div className="animate-bounce pt-8">
