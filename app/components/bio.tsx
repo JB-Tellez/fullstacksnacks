@@ -33,6 +33,19 @@ export function Bio() {
           </Card>
           <Card>
             <CardHeader>
+              <CardTitle>Snacks with Next</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>A full stack web application built with Next.js 14, FastAPI, and Supabase.</p>
+            </CardContent>
+            <CardFooter>
+              <Link to="https://next-snacks.vercel.app/" className="text-primary">
+                View Project
+              </Link>
+            </CardFooter>
+          </Card>
+          <Card>
+            <CardHeader>
               <CardTitle>Snacks with FastAPI</CardTitle>
             </CardHeader>
             <CardContent>
