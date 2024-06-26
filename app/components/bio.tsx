@@ -16,18 +16,22 @@ export function Bio() {
       <div className="space-y-4">
         <p>
         Hi there! I’m an experienced educational software engineer and instructor based in Seattle, WA. My journey in the tech industry spans over two decades, during which I’ve developed a diverse skill set in multiple programming languages and frameworks. I have a proven track record in engineering educational software and mentoring team mates in advanced programming.</p>
-        <p>Check out example applications built with varying stacks:</p>
+        <p>When I'm evaluating different stacks, I like to build a super simple Snack CRUD application.</p>
+        <p>Check out some examples:</p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <Card>
             <CardHeader>
               <CardTitle>Snacks with Remix</CardTitle>
             </CardHeader>
             <CardContent>
-              <p>A full stack web application built with Remix, FastAPI, and Supabase.</p>
+             A full stack web application built with Remix, FastAPI, and Supabase.
             </CardContent>
-            <CardFooter>
+            <CardFooter className="flex gap-2">
               <Link to="https://remix-snacks.vercel.app/" className="text-primary">
-                View Project
+                Live
+              </Link>
+              <Link to="https://github.com/JB-Tellez/remix-snacks" className="text-primary">
+                Github
               </Link>
             </CardFooter>
           </Card>
@@ -38,9 +42,12 @@ export function Bio() {
             <CardContent>
               <p>A full stack web application built with Next.js 14, FastAPI, and Supabase.</p>
             </CardContent>
-            <CardFooter>
+            <CardFooter className="flex gap-2">
               <Link to="https://next-snacks.vercel.app/" className="text-primary">
-                View Project
+                Live
+              </Link>
+              <Link to="https://github.com/JB-Tellez/next-snacks" className="text-primary">
+                Github
               </Link>
             </CardFooter>
           </Card>
@@ -51,9 +58,12 @@ export function Bio() {
             <CardContent>
               <p>Interactive JSON API built with FastAPI and Supabase.</p>
             </CardContent>
-            <CardFooter>
-              <Link to="https://fastsnacks1-ykq3ctu6.b4a.run/docs" className="text-primary" prefetch={false}>
-                View Project
+            <CardFooter className="flex gap-2">
+              <Link to="https://fastsnacks1-ykq3ctu6.b4a.run/docs" className="text-primary">
+                Live
+              </Link>
+              <Link to="https://github.com/JB-Tellez/fast-snacks" className="text-primary">
+                Github
               </Link>
             </CardFooter>
           </Card>
