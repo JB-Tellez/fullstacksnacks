@@ -67,6 +67,19 @@ export function Bio() {
               </Link>
             </CardFooter>
           </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>Snacks with Go + HTMX</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>Server rendered app built with Go and HTMX.</p>
+            </CardContent>
+            <CardFooter className="flex gap-2">
+              <Link to="https://github.com/JB-Tellez/go-htmx-snacks" className="text-primary">
+                Github
+              </Link>
+            </CardFooter>
+          </Card>
         </div>
       </div>
     </div>
