@@ -16,7 +16,7 @@ export function Bio() {
       <div className="space-y-4">
         <p>
         Hi there! I’m an experienced educational software engineer and instructor based in Seattle, WA. My journey in the tech industry spans over two decades, during which I’ve developed a diverse skill set in multiple programming languages and frameworks. I have a proven track record in engineering educational software and mentoring team mates in advanced programming.</p>
-        <p>When I'm evaluating different stacks, I like to build a super simple Snack CRUD application.</p>
+        <p>When I'm evaluating different stacks, I like to build out basic CRUD applications as proof of concepts.</p>
         <p>Check out some examples:</p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <Card>
