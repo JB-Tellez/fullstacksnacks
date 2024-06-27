@@ -6,7 +6,7 @@ export default function Header() {
     <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link className="flex items-center justify-center"  to="/">
           <SnackIcon className="h-16 w-16 pt-2" />
-          <div>
+          <div className="hover:underline underline-offset-4 font-medium text-sm">
             <p>Full Stack</p>
             <p>Snacks</p>
           </div>

@@ -15,7 +15,7 @@ export function Bio() {
       </div>
       <div className="space-y-4">
         <p>
-        Hi there! I’m an experienced educational software engineer and instructor based in Seattle, WA. My journey in the tech industry spans over two decades, during which I’ve developed a diverse skill set in multiple programming languages and frameworks. I have a proven track record in engineering educational software and mentoring team mates in advanced programming.</p>
+        Hi there! I’m an experienced educational software engineer and instructor based in Seattle, WA. My journey in the tech industry spans over two decades, during which I’ve developed a diverse skill set in multiple programming languages and frameworks. I have a proven track record in shipping educational software and mentoring team mates in advanced programming.</p>
         <p>When I'm evaluating different stacks, I like to build out basic CRUD applications as proof of concepts.</p>
         <p>Check out some examples:</p>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
@@ -26,11 +26,11 @@ export function Bio() {
             <CardContent>
              A full stack web application built with Remix, FastAPI, and Supabase.
             </CardContent>
-            <CardFooter className="flex gap-2">
-              <Link to="https://remix-snacks.vercel.app/" className="text-primary">
+            <CardFooter className="flex gap-4">
+              <Link to="https://remix-snacks.vercel.app/" className="text-primary bg-gray-200 px-2 py-1 rounded-md">
                 Live
               </Link>
-              <Link to="https://github.com/JB-Tellez/remix-snacks" className="text-primary">
+              <Link to="https://github.com/JB-Tellez/remix-snacks" className="text-primary bg-gray-200 px-2 py-1 rounded-md">
                 Github
               </Link>
             </CardFooter>
@@ -42,11 +42,11 @@ export function Bio() {
             <CardContent>
               <p>A full stack web application built with Next.js 14, FastAPI, and Supabase.</p>
             </CardContent>
-            <CardFooter className="flex gap-2">
-              <Link to="https://next-snacks.vercel.app/" className="text-primary">
+            <CardFooter className="flex gap-4">
+              <Link to="https://next-snacks.vercel.app/" className="text-primary bg-gray-200 px-2 py-1 rounded-md">
                 Live
               </Link>
-              <Link to="https://github.com/JB-Tellez/next-snacks" className="text-primary">
+              <Link to="https://github.com/JB-Tellez/next-snacks" className="text-primary bg-gray-200 px-2 py-1 rounded-md">
                 Github
               </Link>
             </CardFooter>
@@ -58,11 +58,11 @@ export function Bio() {
             <CardContent>
               <p>Interactive JSON API built with FastAPI and Supabase.</p>
             </CardContent>
-            <CardFooter className="flex gap-2">
-              <Link to="https://fastsnacks1-ykq3ctu6.b4a.run/docs" className="text-primary">
+            <CardFooter className="flex gap-4">
+              <Link to="https://fastsnacks1-ykq3ctu6.b4a.run/docs" className="text-primary bg-gray-200 px-2 py-1 rounded-md">
                 Live
               </Link>
-              <Link to="https://github.com/JB-Tellez/fast-snacks" className="text-primary">
+              <Link to="https://github.com/JB-Tellez/fast-snacks" className="text-primary bg-gray-200 px-2 py-1 rounded-md">
                 Github
               </Link>
             </CardFooter>
@@ -74,8 +74,8 @@ export function Bio() {
             <CardContent>
               <p>Server rendered app built with Go and HTMX.</p>
             </CardContent>
-            <CardFooter className="flex gap-2">
-              <Link to="https://github.com/JB-Tellez/go-htmx-snacks" className="text-primary">
+            <CardFooter className="flex gap-4">
+              <Link to="https://github.com/JB-Tellez/go-htmx-snacks" className="text-primary bg-gray-200 px-2 py-1 rounded-md">
                 Github
               </Link>
             </CardFooter>
@@ -87,8 +87,8 @@ export function Bio() {
             <CardContent>
               <p>API built with Python/Django/Docker/Postgres</p>
             </CardContent>
-            <CardFooter className="flex gap-2">
-              <Link to="https://github.com/JB-Tellez/cookie-stand-api" className="text-primary">
+            <CardFooter className="flex gap-4">
+              <Link to="https://github.com/JB-Tellez/cookie-stand-api" className="text-primar bg-gray-200 px-2 py-1 rounded-mdy">
                 Github
               </Link>
             </CardFooter>
@@ -100,8 +100,8 @@ export function Bio() {
             <CardContent>
               <p>API built with Ruby/Ruby on Rails 7</p>
             </CardContent>
-            <CardFooter className="flex gap-2">
-              <Link to="https://github.com/JB-Tellez/rails_snacks_api" className="text-primary">
+            <CardFooter className="flex gap-4">
+              <Link to="https://github.com/JB-Tellez/rails_snacks_api" className="text-primary bg-gray-200 px-2 py-1 rounded-md">
                 Github
               </Link>
             </CardFooter>
