@@ -4,7 +4,7 @@ import SnackIcon from "./snack-icon";
 export default function Header() {
   return (
     <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link className="flex items-center justify-center"  to="#">
+        <Link className="flex items-center justify-center"  to="/">
           <SnackIcon className="h-16 w-16 pt-2" />
           <div>
             <p>Full Stack</p>
