@@ -82,7 +82,7 @@ export function Bio() {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>Cookie Stand API built with Python/Django</CardTitle>/CardTitle>
+              <CardTitle>Cookie Stand API built with Python/Django</CardTitle>
             </CardHeader>
             <CardContent>
               <p>API built with Python/Django/Docker/Postgres</p>
@@ -95,7 +95,7 @@ export function Bio() {
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>Snacks API built with Ruby on Rails</CardTitle>/CardTitle>
+              <CardTitle>Snacks API built with Ruby on Rails</CardTitle>
             </CardHeader>
             <CardContent>
               <p>API built with Ruby/Ruby on Rails 7</p>
