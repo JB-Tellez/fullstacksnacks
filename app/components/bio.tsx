@@ -80,6 +80,32 @@ export function Bio() {
               </Link>
             </CardFooter>
           </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>Cookie Stand API built with Python/Django</CardTitle>/CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>API built with Python/Django/Docker/Postgres</p>
+            </CardContent>
+            <CardFooter className="flex gap-2">
+              <Link to="https://github.com/JB-Tellez/cookie-stand-api" className="text-primary">
+                Github
+              </Link>
+            </CardFooter>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle>Snacks API built with Ruby on Rails</CardTitle>/CardTitle>
+            </CardHeader>
+            <CardContent>
+              <p>API built with Ruby/Ruby on Rails 7</p>
+            </CardContent>
+            <CardFooter className="flex gap-2">
+              <Link to="https://github.com/JB-Tellez/rails_snacks_api" className="text-primary">
+                Github
+              </Link>
+            </CardFooter>
+          </Card>
         </div>
       </div>
     </div>
